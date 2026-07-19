@@ -1,1 +1,10 @@
-{"disclosures":[],"domains":[{"domain":"*.mtrtb.com","use":"Ad server and tracking"}]}
+{
+"disclosures": [],
+"domains": [
+{
+"domain": "*.mtrtb.com",
+"use": "Ad server and tracking"
+}
+],
+"sdks": []
+}
