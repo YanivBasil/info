@@ -1,10 +1,13 @@
 {
-"disclosures": [],
-"domains": [
-{
-"domain": "*.mtrtb.com",
-"use": "Ad server and tracking"
-}
-],
-"sdks": []
+    "disclosures": [],
+    "domains": [
+        {
+            "domain": "*.mtrtb.com",
+            "use": "IVT, Ad server and tracking"
+        },
+        {
+            "domain": "*.adsimp.com",
+            "use": "IVT, Ad server and tracking"
+        }
+    ]
 }
