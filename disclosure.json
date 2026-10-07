@@ -1,13 +1,63 @@
 {
-    "disclosures": [],
-    "domains": [
-        {
-            "domain": "*.mtrtb.com",
-            "use": "IVT, Ad server and tracking"
-        },
-        {
-            "domain": "*.adsimp.com",
-            "use": "IVT, Ad server and tracking"
-        }
-    ]
+  "disclosures": [
+    {
+      "identifier": "tracking_c_id",
+      "type": "cookie",
+      "maxAgeSeconds": 31536000,
+      "cookieRefresh": true,
+      "domains": ["*"],
+      "purposes": [1, 7],
+      "description": "Discover-Tech identifier used for advertising measurement and remarketing operations."
+    },
+    {
+      "identifier": "tracking_zuid",
+      "type": "cookie",
+      "maxAgeSeconds": 31536000,
+      "cookieRefresh": true,
+      "domains": ["*"],
+      "purposes": [1, 7],
+      "description": "Advertising identifier used for advertising measurement and identifier synchronization."
+    },
+    {
+      "identifier": "tracking_session",
+      "type": "cookie",
+      "maxAgeSeconds": 31536000,
+      "cookieRefresh": false,
+      "domains": ["*"],
+      "purposes": [1, 7],
+      "description": "Session identifier used for advertising measurement."
+    },
+    {
+      "identifier": "tracking_page_session_id",
+      "type": "web",
+      "maxAgeSeconds": null,
+      "cookieRefresh": false,
+      "domains": ["*"],
+      "purposes": [1, 7],
+      "description": "Session identifier stored in browser session storage for advertising measurement."
+    },
+    {
+      "identifier": "xandr_sync_state_v1",
+      "type": "web",
+      "maxAgeSeconds": null,
+      "cookieRefresh": false,
+      "domains": ["*"],
+      "purposes": [1, 7],
+      "description": "Local browser state used to manage advertising identifier synchronization."
+    }
+  ],
+  "domains": [
+    {
+      "domain": "*.mtrtb.com",
+      "use": "IVT, ad serving and advertising measurement"
+    },
+    {
+      "domain": "*.adsimp.com",
+      "use": "IVT, ad serving and advertising measurement"
+    },
+    {
+      "domain": "*.sync-pixel.com",
+      "use": "Remarketing, advertising measurement and identifier synchronization"
+    }
+  ]
 }
